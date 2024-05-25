@@ -1,26 +1,87 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff; /* White background */
-    color: #000000; /* Black text */
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
+/* Container Styles */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
     padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
 }
 
+/* Title Styles */
 .title {
-    color: #ff0000; /* Red titles */
-    font-family: "Comic Sans MS", cursive, sans-serif; /* Comic Sans MS font */
-}
-
-.avengers-image {
-    max-width: 100%;
-    height: auto;
+    color: #ff4444; /* Reddish color */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 3em;
     margin-bottom: 20px;
 }
 
-.result-container {
-    text-align: center;
+/* Avengers Image Styles */
+.avengers-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
 }
+
+/* Form Styles */
+form {
+    text-align: left;
+}
+
+form ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    text-align: left;
+}
+
+form ol li {
+    margin-bottom: 15px;
+    font-size: 1.2em; /* Increase font size */
+}
+
+/* Button Styles */
+button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+/* Result Container Styles */
+.result-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #ffca28;
+}
+
+.result-container h2 {
+    color: #ffca28;
+}
+
+.result-container p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
