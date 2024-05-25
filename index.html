@@ -1,16 +1,15 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Which Avenger are you?</title>
-    <link rel="stylesheet" href="/Users/jeniferrodriguez/Desktop/Avengers Project/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <!-- Header image -->
-        <img src="https://images.unsplash.com/photo-1588497859490-85d1c17db96d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=waldemar-eIOPDU3Fkwk-unsplash.jpg" alt="Avengers Image" class="avengers-image">
         <h1 class="title">Which Avenger are you?</h1>
+        <img src="https://images.unsplash.com/photo-1588497859490-85d1c17db96d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=waldemar-eIOPDU3Fkwk-unsplash.jpg" alt="Avengers Image" class="avengers-image">
         <form id="quizForm">
             <ol>
                 <li>
@@ -93,18 +92,15 @@
                     <input type="radio" name="q10" value="D"> D) A high-tech maze with advanced security and robotic challenges. <br>
                     <input type="radio" name="q10" value="E"> E) A brute force maze with massive walls and physical obstacles.
                 </li>
-            </ol>
+          </ol>
             <button type="button" id="submitBtn">Submit</button>
         </form>
         <div class="result-container">
             <h2>RESULTS</h2>
             <p>You are <span id="characterName"></span>.</p>
-            <!-- Result image -->
-            <img src="https://images.unsplash.com/photo-1588497859490-85d1c17db96d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=waldemar-eIOPDU3Fkwk-unsplash.jpg" alt="Avengers Image" class="avengers-image">
             <p id="characterDescription"></p>
         </div>
-    
-        <!-- Use relative path for script -->
-        <script src="script.js"></script>
-    </body>
-    </html>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
