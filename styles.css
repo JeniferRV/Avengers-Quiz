@@ -91,20 +91,19 @@ button:hover {
     margin-top: 10px;
 }
 
-.result-container #characterName {
-    color: #ff4444;
-    font-family: 'Comic Neue', cursive, sans-serif;
-    font-size: 2em; /* Adjust the size as needed */
-}
-
-.result-container #characterDescription {
-    margin-top: 20px;
-    font-size: 1.2em;
-}
-
 .result-container .result-header {
     font-size: 2em;
     color: #ffffff;
     font-family: 'Comic Neue', cursive, sans-serif;
 }
+
+#characterName {
+    font-size: 2em; /* Adjust the size as needed */
+}
+
+#characterDescription {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
 
