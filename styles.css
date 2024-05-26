@@ -1,6 +1,5 @@
-/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Neue', sans-serif;
     background-color: #121212;
     color: #e0e0e0;
     margin: 0;
@@ -11,7 +10,6 @@ body {
     min-height: 100vh; /* Ensures the body covers the entire screen height */
 }
 
-/* Container Styles */
 .container {
     background: rgba(0, 0, 0, 0.8);
     padding: 20px;
@@ -24,86 +22,58 @@ body {
     box-sizing: border-box;
 }
 
-/* Title Styles */
 .title {
-    color: #ff4444; /* Reddish color */
-    font-family: 'Comic Neue', cursive, sans-serif;
-    font-size: 3em;
-    margin-bottom: 20px;
+    color: #ff4444;
+    font-family: 'Comic Neue', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 0;
 }
 
-/* Avengers Image Styles */
 .avengers-image {
     max-width: 100%;
     height: auto;
-    margin: 0 auto 20px;
-    display: block;
+    margin-bottom: 20px;
 }
 
-/* Form Styles */
 form {
+    text-align: center;
+}
+
+ol {
+    padding-left: 0;
+    list-style: none;
     text-align: left;
+    display: inline-block;
 }
 
-form ol {
-    list-style-type: decimal;
-    padding-left: 20px;
-    text-align: left;
-}
-
-form ol li {
-    margin-bottom: 25px; /* Add space between questions */
-    font-size: 1.2em; /* Increase font size */
-}
-
-form ol li input[type="radio"] {
-    margin-bottom: 10px; /* Add space between answer choices */
-}
-
-/* Button Styles */
-button {
-    background-color: #ff5722;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-}
-
-button:hover {
-    background-color: #e64a19;
-}
-
-/* Result Container Styles */
-.result-container {
-    margin-top: 20px;
-    padding: 20px;
-    border-top: 1px solid #ffca28;
-}
-
-.result-container h2 {
-    color: #ffca28;
-}
-
-.result-container p {
+li {
+    margin-bottom: 20px;
     font-size: 1.2em;
+}
+
+input[type="radio"] {
     margin-top: 10px;
 }
 
-.result-container .result-header {
+.result-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result-header {
     font-size: 2em;
     color: #ffffff;
-    font-family: 'Comic Neue', cursive, sans-serif;
+    font-family: 'Comic Neue', sans-serif;
 }
 
 #characterName {
     font-size: 2em; /* Adjust the size as needed */
+    color: #ff4444; /* Red color for character name */
 }
 
 #characterDescription {
     margin-top: 20px;
     font-size: 1.2em;
 }
-
 
