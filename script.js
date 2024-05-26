@@ -35,9 +35,15 @@ document.addEventListener("DOMContentLoaded", function() {
         // Display character description
         var description = "No description available.";
         if (character === "Thor") {
-            description = "Kind, charming, and very loyal.";
+            description = "Kind, charming, and very loyal.\n" +
+                          "You can be proud and sometimes overly cocky but are learning humility.\n" +
+                          "You struggle with family expectations and responsibilities.\n" +
+                          "You face problems head-on and get things done.";
         } else if (character === "Wanda") {
-            description = "You have a lot of potential and often come across as mysterious.";
+            description = "You have a lot of potential and often come across as mysterious.\n" +
+                          "You often struggle with your inner challenges and abilities.\n" + 
+                          "Your emotions run deep, influenced by your complicated past.\n" 
+                          "You're deeply connected to those you care about, like family." ;
         } else if (character === "Black Widow") {
             description = "You're strategic and always think ahead.\n" +
                           "You handle conflicts with skill and precision.\n" +
