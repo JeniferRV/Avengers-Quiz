@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100vh; /* Ensures the body covers the entire screen height */
 }
 
 /* Container Styles */
@@ -20,12 +20,14 @@ body {
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 20px;
+    width: 100%; /* Make the container width 100% */
+    box-sizing: border-box;
 }
 
 /* Title Styles */
 .title {
     color: #ff4444; /* Reddish color */
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Neue', cursive, sans-serif;
     font-size: 3em;
     margin-bottom: 20px;
 }
@@ -50,8 +52,12 @@ form ol {
 }
 
 form ol li {
-    margin-bottom: 15px;
+    margin-bottom: 25px; /* Add space between questions */
     font-size: 1.2em; /* Increase font size */
+}
+
+form ol li input[type="radio"] {
+    margin-bottom: 10px; /* Add space between answer choices */
 }
 
 /* Button Styles */
@@ -83,5 +89,22 @@ button:hover {
 .result-container p {
     font-size: 1.2em;
     margin-top: 10px;
+}
+
+.result-container #characterName {
+    color: #ff4444;
+    font-family: 'Comic Neue', cursive, sans-serif;
+    font-size: 2em; /* Adjust the size as needed */
+}
+
+.result-container #characterDescription {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.result-container .result-header {
+    font-size: 2em;
+    color: #ffffff;
+    font-family: 'Comic Neue', cursive, sans-serif;
 }
 
