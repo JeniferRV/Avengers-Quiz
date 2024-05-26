@@ -62,9 +62,12 @@ li {
 
 .answer input[type="radio"] {
     margin-top: 4px;
-    margin-right: 10px;
+    margin-right: 10px; /* Add margin to create space between radio button and text */
 }
 
+.answer span {
+    margin-right: 10px; /* Add margin to create space between letter option and text */
+}
 .result-container {
     text-align: center;
     margin-top: 20px;
