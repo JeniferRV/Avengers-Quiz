@@ -65,7 +65,7 @@ li {
     margin-right: 10px;
 }
 .answer span {
-    margin-right: 12px; /* Add margin to create space between letter option and text */
+    margin-right: 5px; /* Add margin to create space between letter option and text */
 }
 .result-container {
     text-align: center;
